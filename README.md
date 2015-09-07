@@ -11,7 +11,7 @@
 
 Plugin for [Oh My Fish][omf-link].
 
-A lightweight APT utility for quickly managing packages.
+A lightweight APT utility for quickly managing APT packages, the package management system typically used in Debian and Ubuntu.
 
 ## Install
 
