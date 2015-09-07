@@ -38,6 +38,6 @@ See `apt --help` for more commands and options.
 [mit]:            http://opensource.org/licenses/MIT
 [author]:         http://github.com/coderstephen
 [contributors]:   https://github.com/coderstephen/pkg-apt/graphs/contributors
-[omf-link]:       https://www.github.com/fish-shell/oh-my-fish
+[omf-link]:       https://www.github.com/oh-my-fish/oh-my-fish
 
 [license-badge]:  https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square
