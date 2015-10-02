@@ -32,12 +32,12 @@ See `apt --help` for more commands and options.
 
 # License
 
-[MIT][mit] © [Stephen Coakley][author]
+[MIT][mit] © [coderstephen][author] et [al][contributors]
 
 
 [mit]:            http://opensource.org/licenses/MIT
 [author]:         http://github.com/coderstephen
-[contributors]:   https://github.com/coderstephen/pkg-apt/graphs/contributors
+[contributors]:   https://github.com/oh-my-fish/plugin-apt/graphs/contributors
 [omf-link]:       https://www.github.com/oh-my-fish/oh-my-fish
 
 [license-badge]:  https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square
