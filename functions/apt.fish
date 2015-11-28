@@ -3,8 +3,6 @@
 #
 # USAGE
 #   See `apt --help` for details.
-#
-
 function apt -d "Short and friendly command wrapper for APT"
   # Check for super cow powers.
   if type -f -q cowsay
@@ -16,7 +14,7 @@ function apt -d "Short and friendly command wrapper for APT"
 
   # If --help, -h, or no command given, display usage message.
   if begin; not set -q argv[1]; or contains -- -h $argv; or contains -- --help $argv; end
-    source (dirname (status -f))/apt.help.fish
+    apt.help
     return 0
   end
 
