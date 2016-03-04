@@ -88,6 +88,11 @@ function apt -d "Short and friendly command wrapper for APT"
     case purge
       sudo apt-get $apt_get_flags --purge remove $argv[2..-1]
 
+    case search-file
+      type -q apt-file
+        and apt-file search $argv[2..-1]
+        or echo "Please install apt-file first."
+
     case reconfigure
       sudo dpkg-reconfigure $argv[2..-1]
 

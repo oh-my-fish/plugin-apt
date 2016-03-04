@@ -19,6 +19,7 @@ Commands:
   reconfigure Reconfigures packages.
   remove      [Alias: rm] Removes packages.
   search      Searches for packages.
+  search-file Searches for packages that contain the given files.
   show        Shows information about packages.
   update      [Alias: up] Updates the list of downloadable packages.
   upgrade     Upgrades packages.
