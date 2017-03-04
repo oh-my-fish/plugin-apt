@@ -40,16 +40,16 @@ function apt -d "Short and friendly command wrapper for APT"
   # Parse and execute the given command.
   switch $argv[1]
     case autoremove
-      sudo apt-get $apt_get_flags autoremove
+      sudo apt $apt_get_flags autoremove
 
     case check
       sudo apt-get $apt_get_flags check
 
     case clean
-      sudo apt-get $apt_get_flags autoclean
+      sudo apt $apt_get_flags autoclean
 
     case install in
-      sudo apt-get $apt_get_flags install $argv[2..-1]
+      sudo apt $apt_get_flags install $argv[2..-1]
 
     case policy
       env LANG=C apt-cache policy
@@ -106,13 +106,13 @@ function apt -d "Short and friendly command wrapper for APT"
       apt-cache show $argv[2..-1]
 
     case update up
-      sudo apt-get $apt_get_flags update
+      sudo apt $apt_get_flags update
 
     case upgrade
       if set -q argv[2]; and test $argv[2] = dist
-        sudo apt-get $apt_get_flags dist-upgrade
+        sudo apt $apt_get_flags dist-upgrade
       else
-        sudo apt-get $apt_get_flags upgrade
+        sudo apt $apt_get_flags upgrade
       end
 
     case moo
