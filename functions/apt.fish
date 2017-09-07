@@ -37,6 +37,8 @@ function apt -d "Short and friendly command wrapper for APT"
     set ppa_purge_flags $ppa_purge_flags "-y"
   end
 
+  # Wait for package manager lock
+  apt-queue
   # Parse and execute the given command.
   switch $argv[1]
     case autoremove
