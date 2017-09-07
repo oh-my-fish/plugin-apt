@@ -1,5 +1,4 @@
 function apt-queue
-	echo "current command: $_"
 	set i 0
 	tput sc
 	set locked (sudo fuser /var/lib/dpkg/lock ^ /dev/null)
