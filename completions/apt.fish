@@ -10,6 +10,10 @@ complete -c apt -n "__fish_use_subcommand" -a clean -f
 
 complete -c apt -n "__fish_use_subcommand" -a "install in" -x
 
+complete -c apt -n "__fish_use_subcommand" -a installed -f
+
+complete -c apt -n "__fish_use_subcommand" -a list -f
+
 complete -c apt -n "__fish_use_subcommand" -a policy -f
 
 complete -c apt -n "__fish_use_subcommand" -a ppa -x

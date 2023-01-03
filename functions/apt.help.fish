@@ -13,6 +13,8 @@ Commands:
   check       Verify that there are no broken dependencies.
   clean       Erase old downloaded archive files.
   install     [Alias: in] Install packages.
+  installed   List all installed packages (can be filtered)
+  list        List all packages (can be filtered)
   policy      Shows policy settings.
   ppa         Adds or removes PPA packages sources.
   purge       Removes packages and their configuration files.
