@@ -51,6 +51,12 @@ function apt -d "Short and friendly command wrapper for APT"
     case install in
       sudo apt-get $apt_get_flags install $argv[2..-1]
 
+    case installed
+      command apt list --installed $argv[2..-1]
+
+    case list
+      command apt list $argv[2..-1]
+
     case policy
       env LANG=C apt-cache policy
 
